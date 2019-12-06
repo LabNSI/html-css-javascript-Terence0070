@@ -32,7 +32,7 @@ Le but de cet exercice est de compléter les fichiers HTML, CSS et JavaScript po
       - Affiche une alerte en conséquence
       - Affiche une alerte correspondant au résultat
 
-![](images/page_web.png)
+![](page_web.png)
 
 # Evaluation
 
