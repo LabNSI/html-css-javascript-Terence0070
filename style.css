@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #007F00;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+/* Style du header
+    couleur de fond: noir
+    marges: 50px
+    rembourrage: 10px
+    coins arrondis de rayon: 20px
+    alignement du texte: centré
+*/
+header {
+
+}
+
+/* Couleur du texte: Blanc */
+h1 {
+
+}
+
+/* Style de la classe "choix"
+
+*/
+_____ {
+  float: left;
+  width: 32.33%;
+  margin: 0.5%;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: auto;
+  padding-bottom: auto;
+  height: 350px;
+  overflow: auto;
+  border-radius: 20px;
+}
+
+/* Style de la classe "resultat"
+    Flottant: gauche
+    alignement du texte: centré
+    largeur: 100%
+    marge: 0.5%
+    rembourrage: 10px
+    hauteur: 150px
+    coins arrondis de rayon: 20px
+    couleur de fond: noir
+*/
+.resultat {
+
+}
+
+/* Clear floats after the columns */
+.section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style de la classe "resultat"
+    Flottant: gauche
+    alignement du texte: centré
+    largeur: 100%
+    marge: 0.5%
+    rembourrage: 10px
+    hauteur: 150px
+    coins arrondis de rayon: 20px
+    couleur de fond: noir
+*/
+.button {
+  background-color: #007F00;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Style de l'élément d'ID "identity"
+    couleur de fond : #bbb
+*/
+#identity {
+
+}
+
+/* Style de l'élément d'ID "identity"
+    couleur de fond : #bbb
+*/
+#classe {
+
+}
+
+/* Style de l'élément d'ID "identity"
+    couleur de fond : #ccc
+*/
+#speciality {
+
+}
