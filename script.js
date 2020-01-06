@@ -1,5 +1,5 @@
 function init () {
-  document.getElementById("nom_du_formulaire")._evenement_soumission = resultat;
+  document.getElementById("formulaire.html")._evenement_soumission = resultat;
 
   var sReq = window.location.search.substring(1);
   console.log("sRec = 1"+ sReq);
