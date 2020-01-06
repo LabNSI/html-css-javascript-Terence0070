@@ -4,10 +4,11 @@
   <meta charset="utf-8">
 
   <!-- Compléter le titre de la page -->
-  <title>Met un titre ici</title>
+  <title>Mes spécialités en terminales</title>
   <!-- ***************************** -->
-
-  <!-- Faire l'inclusion du css et du script js -->
+  
+  
+  <script src="script.js"></script>
 
 
   <!-- ***************************** -->
@@ -21,37 +22,29 @@
 
   <!-- Affecter au formulaire l'identité "terminale" -->
   <form  action="#" method="get">  <br/>
-  <!-- ***************************** -->
-      <!-- Affecter à l'article l'identité "identity" et la classe "choix" -->
-      <article>
-      <!-- ***************************** -->
-        <!-- Ecrire le code du formulaire de saisie de l'Identité
-            * Titre de niveau 2 : "Identité :"
-            * paragraphe : "Indiquez vos nom et prenom"
-            * paragraphe : "Prénom"
+      <article id="terminale">
+        <h2>Identité :</h2>
+        <p>Indiquez vos nom et prenom</p>
+        <p>Prénom</p>
             * champ de saisie de texte d’une ligne avec comme nom "prenom"
-            * paragraphe : "Nom"
+        <p>Nom</p>
             * champ de saisie de texte d’une ligne avec comme nom "nom" -->
         <!-- ***************************** -->
       </article>
 
       <!-- Affecter à l'article l'identité "classe" et la classe "choix" -->
-      <article>
-      <!-- ***************************** -->
-        <!-- Ecrire le code du formulaire de choix de la classe
-            * Titre de niveau 2 : "Votre classe :"
-            * paragraphe : "En quelle classe êtes vous ?"
-            * paragraphe : bouton radio avec comme nom "classe" et pour valeur "1G2"
-            * paragraphe : bouton radio avec comme nom "classe" et pour valeur "1G3"
-            * paragraphe : bouton radio avec comme nom "classe" et pour valeur "1G5" -->
-        <!-- ***************************** -->
+     <article id="classe" class="choix">
+       <h2>Votre classe :</h2>
+        <p>En quelle classe êtes vous ?</p>
+        <p><input type="radio" name="classe" value="1G2"></p>
+        <p><input type="radio" name="classe" value="1G3"></p>
+        <p><input type="radio" name="classe" value="1G5"></p>
      </article>
 
      <!-- Affecter à l'article l'identité "speciality" et la classe "choix" -->
      <article id="speciality" class="choix">
-     <!-- ***************************** -->
-       <!-- Ecrire le code du formulaire de choix des spécialités
-           * Titre de niveau 2 : "Les spécialités en terminale :"
+
+<h2>Les spécialités en terminale :</h2>
            * paragraphe : "Choisissez vos deux spécialités"
            * paragraphe : case à cocher avec comme nom "ARTS_PLASTIQUES" et pour valeur "ARTS PLASTIQUES"
            * paragraphe : case à cocher avec comme nom "LITT_ANGLAIS" et pour valeur "LITT. ANGLAIS"
