@@ -74,3 +74,4 @@ function resultat() {
 }
 
 window.onload = init;
+
