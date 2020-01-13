@@ -1,13 +1,13 @@
 function init () {
-  document.getElementById("formulaire.html")._evenement_soumission = resultat;
+  document.getElementById("terminale").onsubmit = resultat;
 
   var sReq = window.location.search.substring(1);
   console.log("sRec = 1"+ sReq);
 
-  if(sReq != 0)
+  if(sReq != "")
   {
       const good = "NUMERIQUE_SC_INFORM";
-      var aReq = sReq.split("0");
+      var aReq = sReq.split("&");
       var mess = "sReq";
       var aVar = [];
       for (var i=0;i<aReq.length;i++) {
@@ -23,7 +23,8 @@ function init () {
       else {
         mess += "Mauvais choix !";
       }
-      document.getElementById('mess').element.id ='resultat';
+	  console.log (mess);
+      document.getElementById('resultat').innerHTML = mess;
   }
 }
 
@@ -39,7 +40,7 @@ function resultat() {
     message += "\n- Nom";
   }
 
-  if(!f.elements[2].checked && !f.elements[3].checked && !f.elements[4].checked){
+ if(!f.elements[2].checked && !f.elements[3].checked && !f.elements[4].checked){
     message += "\n- Classe";
   }
 
@@ -59,15 +60,14 @@ function resultat() {
     return 0;
   }
 
-  message = f.elements["prenom"].value + " de " + prenom
-            f.elements["nom"].value + " de " + nom
-            f.elements["classe"].value;
+  message = f.elements["nom"].value + " " + f.elements["prenom"].value + " de " + f.elements["classe"].value
+            
 
   if(f.elements["NUMERIQUE_SC_INFORM"].checked){
     message += "\nTu fais le bon choix !";
   }
   else {
-    message += "\nEs-tu sur de ton choix ? !";
+    message += "\nEs-tu sur de ton choix ?!";
   }
 
   alert(message);
