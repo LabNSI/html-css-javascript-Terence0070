@@ -48,7 +48,6 @@ h1 {
   background-color: #000000;
 }
 
-/* Clear floats after the columns */
 .section::after {
   content: "";
   display: table;
