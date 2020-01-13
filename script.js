@@ -27,7 +27,7 @@ function init () {
       document.getElementById('resultat').innerHTML = mess;
   }
 }
-
+/**Cette fonction permet de montrer si le résultat est correct "Tu fais le bon choix !" si on choisit NUMERIQUE SC.INFORM ou incorrect dans le cas contraire "Es-tu sur de ton choix ?!" Dans cette même fonction, elle affiche avant de dire si c'est incorrect ou non le nom, le prénom et la classe.  */
 function resultat() {
   var f = document.forms["terminale"];
   var message = "Compléter les champs :";
