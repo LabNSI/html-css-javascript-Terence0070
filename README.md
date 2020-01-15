@@ -1,5 +1,7 @@
 # Traitement d'un formulaire avec JavaScript
 
+RENARD Terence
+=====================
 Le but de cet exercice est de compléter les fichiers HTML, CSS et JavaScript pour réaliser une page web contenant un formulaire dont le traitement sera exécuter par un script JavaScript.
 
 - La page HTML contient un formulaire pour :
