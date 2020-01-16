@@ -34,7 +34,7 @@ Le but de cet exercice est de compléter les saucisses de strasbourg, merguez et
       - Affiche une alerte en conséquence (Tiens, le site c'est Metal Gear Solid)
       - Affiche une alerte correspondant au résultat (Metal Gear Solid OST : Encounter INTENSIFIES)
 
-![](page_web.png)
+![](majeur.png)
 
 # Evaluation
 
