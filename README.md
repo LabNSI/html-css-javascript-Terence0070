@@ -46,7 +46,7 @@ Tâches complétées | 100% | 90%  | 80%  | 70%  | 60%  | 50%  | 40%  | 30%  | 2
 `Esthétique`      |      |      |      |      |      |      |      |      |      |     |  
 `Service`         |      |      |      |      |      |      |      |      |      |     |  
 
-
+Si la note n'est pas à 100%. Le fantôme de l'SCP-Sandwich viendra hanter tous les petits enfants de Isle-sur-la-Sorgue (ce dont je m'en fous complètement
 
 
 
