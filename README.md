@@ -102,6 +102,7 @@ Le but de cet exercice est de compléter les fichiers HTML, CSS et JavaScript po
 ![](page_web.png)
 # Evaluation
 Ce travail sera noté :
+
 Tâches complétées | 100% | 90%  | 80%  | 70%  | 60%  | 50%  | 40%  | 30%  | 20%  | 10% | 0 
 ----------------- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- |-----|----
 `formulaire.html` |      |      |      |      |      |      |      |      |      |     | 
