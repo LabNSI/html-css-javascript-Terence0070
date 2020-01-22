@@ -2,7 +2,7 @@ function init () {
   document.getElementById("terminale").onsubmit = resultat;
 
   var sReq = window.location.search.substring(1);
-  console.log("sRec = 1"+ sReq);
+  console.log("sRec = "+ sReq);
 
   if(sReq != "")
   {
@@ -11,10 +11,10 @@ function init () {
       var mess = "sReq";
       var aVar = [];
       for (var i=0;i<aReq.length;i++) {
-        aVar[i] = aReq[i].split(":");
+        aVar[i] = aReq[i].split("=");
         console.log("aVar["+i+"][0] = "+aVar[i][0]+"   "+"aVar["+i+"][1] = "+aVar[i][1]);
       }
-      mess = valeur_du_prenom + " de " + valeur_du_nom + " de " + valeur_de_classe + " : ";
+      mess = aVar[0][1]+ " de " + aVar[1][1] + " de " + aVar[2][1] + " : ";
 
       if(aVar[3][0] == good || aVar[4][0] == good)
       {
@@ -23,6 +23,7 @@ function init () {
       else {
         mess += "Mauvais choix !";
       }
+      alert(mess);
 	  console.log (mess);
       document.getElementById('resultat').innerHTML = mess;
   }
@@ -61,7 +62,7 @@ function resultat() {
   }
 
   message = f.elements["nom"].value + " " + f.elements["prenom"].value + " de " + f.elements["classe"].value
-            
+
 
   if(f.elements["NUMERIQUE_SC_INFORM"].checked){
     message += "\nTu fais le bon choix !";
@@ -74,4 +75,3 @@ function resultat() {
 }
 
 window.onload = init;
-
