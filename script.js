@@ -14,7 +14,7 @@ function init () {
         aVar[i] = aReq[i].split("=");
         console.log("aVar["+i+"][0] = "+aVar[i][0]+"   "+"aVar["+i+"][1] = "+aVar[i][1]);
       }
-      mess = aVar[0][1]+ " de " + aVar[1][1] + " de " + aVar[2][1] + " : ";
+      mess = aVar[1][1]+ " " + aVar[0][1] + " de " + aVar[2][1] + " : ";
 
       if(aVar[3][0] == good || aVar[4][0] == good)
       {
